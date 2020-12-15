@@ -33,7 +33,7 @@ namespace binance
             }
             catch (Exception ex)
             {
-                MyConsole.WriteLine_Exception("" , ex);
+                MyConsole.WriteLine_Exception("", ex);
                 Console.WriteLine();
 
 

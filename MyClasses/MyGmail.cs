@@ -64,9 +64,11 @@ public class MyGmail
 
 
         DateTime? lastMessageDate = null;
+        var co = 1; var maxChack = MyConfig.Config.numberOfEmailCheck ?? 5;
         bool mustContinue = true;
-        while (mustContinue)
+        while (mustContinue && co <= maxChack)
         {
+            MyConsole.WriteLine_Info($"\n\nChecking Email ${co} of ${maxChack} \n\n");
             mustContinue = false;
 
             var hasException = false;
@@ -109,7 +111,7 @@ public class MyGmail
                     mustContinue = true;
                 }
             }
-
+            co++;
         }
 
         return null;

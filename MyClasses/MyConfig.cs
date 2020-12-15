@@ -42,4 +42,6 @@ public class SystemConfig
 
     public decimal priceGrowthPercent_comparedWithBasePrice_forChangeBasePrice{get;set;}
     public decimal priceFallPercent_comparedWithBasePrice_forSell{get;set;}
+
+    public int? numberOfEmailCheck{get;set;}
 }
