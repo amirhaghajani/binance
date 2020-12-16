@@ -68,7 +68,7 @@ public class MyGmail
         bool mustContinue = true;
         while (mustContinue && co <= maxChack)
         {
-            MyConsole.WriteLine_Info($"\n\nChecking Email ${co} of ${maxChack} \n\n");
+            MyConsole.WriteLine_Info($"\n\nChecking Email {co} of {maxChack} \n\n");
             mustContinue = false;
 
             var hasException = false;
