@@ -98,7 +98,7 @@ public class MyGmail
                 if (a > validSecondDuration)
                 {
                     mustContinue = true;
-                    MyConsole.WriteLine_Error($"\nEmail time Expired. More than {validSecondDuration} seconds have elapsed since the email arrived {a}\n");
+                    MyConsole.WriteLine_Error($"\nEmail time is {lastMessageDate} and Expired. More than {validSecondDuration} seconds have elapsed since the email arrived {a}\n");
                     MyConsole.WriteLine_Info($"Recheck on {recheckEmail_second} seconds");
                     MyThread.GenerateConsoleWaiting(recheckEmail_second);
                 }

@@ -7,3 +7,5 @@ token.js/Google.Apis.Auth.OAuth2.Responses.TokenResponse-user
 token.json/Google.Apis.Auth.OAuth2.Responses.TokenResponse-user
 token_buy.json/Google.Apis.Auth.OAuth2.Responses.TokenResponse-user
 token_sell.json/Google.Apis.Auth.OAuth2.Responses.TokenResponse-user
+
+bin/
